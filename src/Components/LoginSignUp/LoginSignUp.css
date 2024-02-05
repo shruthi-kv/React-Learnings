@@ -1,0 +1,24 @@
+.container{
+    display:block;
+    align-items: center;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.submit{
+    display: flex;
+    align-items: center;
+
+}
+.greyButton{
+    background-color:rgb(70, 66, 66);
+
+}
+Button{
+    background-color:rgb(34, 126, 212);
+    color: white;
+}
+.forgotPAssword{
+    font-size: 12px;
+}
