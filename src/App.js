@@ -1,12 +1,10 @@
-import './App.css';
-import LoginSignUp from './Components/LoginSignUp/LoginSignUp';
+import "./App.css";
+import Fetch from "./Components/Api/Fetch";
 
 function App() {
   return (
     <div>
-     <LoginSignUp>
-      
-     </LoginSignUp>
+      <Fetch/>
     </div>
   );
 }
