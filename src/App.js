@@ -1,10 +1,10 @@
 import "./App.css";
-import Fetch from "./Components/Api/Fetch";
+import BoxModel from "./Components/CssConcepts/BoxModel/BoxModel";
 
 function App() {
   return (
     <div>
-      <Fetch/>
+      <BoxModel/>
     </div>
   );
 }
