@@ -13,9 +13,9 @@ function Fetch() {
     ).then((res) => res.json());
     setImages(data);
   };
-  console.log(images, "images");
+  
   const imageSort = images.slice(0,20);
-  return (
+  return ( 
     <div>
       <div style={{display:"flex"}}>
         {imageSort.length > 0 &&

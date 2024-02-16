@@ -1,10 +1,10 @@
 import "./App.css";
-import GridLayout from "./Components/CssConcepts/Grid/GridLayout";
+import Pagination from "./Components/Pagination/Pagination";
 
 function App() {
   return (
     <div>
-      <GridLayout/>
+    <Pagination/>
     </div>
   );
 }
