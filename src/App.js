@@ -1,10 +1,10 @@
 import "./App.css";
-import BoxModel from "./Components/CssConcepts/BoxModel/BoxModel";
+import GridLayout from "./Components/CssConcepts/Grid/GridLayout";
 
 function App() {
   return (
     <div>
-      <BoxModel/>
+      <GridLayout/>
     </div>
   );
 }
