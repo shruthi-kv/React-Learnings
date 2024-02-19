@@ -1,12 +1,10 @@
-import './App.css';
-import LoginSignUp from './Components/LoginSignUp/LoginSignUp';
+import "./App.css";
+import DataTable from "./Components/Pagination/DataTable";
 
 function App() {
   return (
     <div>
-     <LoginSignUp>
-      
-     </LoginSignUp>
+    <DataTable/>
     </div>
   );
 }

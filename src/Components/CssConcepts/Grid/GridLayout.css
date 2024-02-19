@@ -1,0 +1,20 @@
+.layout{
+ display: grid;
+ grid-template-columns: 30% auto;
+}
+.header{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+}
+.sidebar{
+    background-color:aquamarine;
+}
+
+.content{
+    background-color:brown;
+    display: flex;
+}
+.footer{
+    background-color:coral;
+}

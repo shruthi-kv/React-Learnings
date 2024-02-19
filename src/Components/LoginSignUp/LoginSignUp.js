@@ -7,7 +7,7 @@ export default function LoginSignUp() {
   const[action,setAction] = useState("Login")
 
   return (
-    <div className="container">
+    <div className="">
       <div className="header">
         <div>
           <h3>{action}</h3>
