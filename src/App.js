@@ -1,10 +1,10 @@
 import "./App.css";
-import Pagination from "./Components/Pagination/Pagination";
+import DataTable from "./Components/Pagination/DataTable";
 
 function App() {
   return (
     <div>
-    <Pagination/>
+    <DataTable/>
     </div>
   );
 }
